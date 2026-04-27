@@ -57,6 +57,9 @@ app.use((req, res, next) => {
     logLOG.info(`${req.method} ${req.originalUrl}`);
     next();
 });
+app.use(cors({
+  origin: 'https://www.debu.fun'
+}));
 
 /**
  * 创建带 HTTP 状态码的错误对象。
