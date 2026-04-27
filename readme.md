@@ -1,2 +1,2 @@
 一个拿来练手的后端
-部署在 [连接](https://api.debu.fun/)
+部署在 [连接](https://api.debu.fun/)。仓库未上传关于微信的部分
